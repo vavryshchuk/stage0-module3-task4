@@ -1,6 +1,9 @@
 package lang.print.gaps.task4;
 
-int valueInt1= 99;
+public class IntRepresentation {
+    public static void main(String[] args) {
+      
+       int valueInt1= 99;
        char valueChar1= (char) valueInt1;
            int valueInt2= 104;
        char valueChar2= (char) valueInt2;
@@ -10,6 +13,9 @@ int valueInt1= 99;
        char valueChar4= (char) valueInt4;
        
        System.out.println(valueChar1);
+       System.out.println(valueChar2);
+       System.out.println(valueChar3);
+       System.out.println(valueChar4);
         
         }
     }
